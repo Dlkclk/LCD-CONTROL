@@ -1,4 +1,4 @@
-# LCD_Controller - STM32 LCD Control System
+# STM32-LCD-Controller
 
 ## 📋 Proje Özeti
 
@@ -376,3 +376,15 @@ Bu proje aşağıdaki teknolojilerin derinlemesine anlaşılmasını sağlamış
 **Proje Durumu**: ✅ Aktif Geliştirme
 **Son Güncelleme**: 2025
 
+
+## Project naming and build files
+
+- Repository/display name: `STM32-LCD-Controller`
+- STM32CubeMX project: `LCD_Controller.ioc`
+- STM32CubeIDE projects: `LCD_Controller`, `LCD_Controller_CM4`, `LCD_Controller_CM7`
+- Import the existing root and core projects into STM32CubeIDE, then perform a clean build.
+- Debug and Release directories are generated locally and are intentionally excluded from Git.
+- Vendor copyright and license notices remain unchanged.
+
+The Ethernet product identifier is now `STM32-LCD-CONTROLLER`. This rename does not
+change the firmware algorithms, peripheral configuration, or communication protocols.

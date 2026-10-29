@@ -1,0 +1,15 @@
+# STM32CubeIDE generated output (contains local paths and binary debug data)
+**/Debug/
+**/Release/
+**/.metadata/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+*.log
+.DS_Store

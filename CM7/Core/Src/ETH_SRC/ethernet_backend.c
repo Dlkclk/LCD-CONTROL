@@ -702,7 +702,7 @@ const char* cgi_get_output_configuration_handler(int iIndex, int iNumParams, cha
  * Authenticates user credentials for web interface access
  * Validates username/password against hardcoded credentials
  * @return JSON response with authentication status for login.shtml
- * @note Default credentials: username="sealink", password="demo"
+ * @note Default credentials: Configured by VALID_USERNAME and VALID_PASSWORD above
  */
 const char* cgi_get_login_handler(int iIndex, int iNumParams, char *pcParam[], char *pcValue[])
 {
